@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-void sort(int array[SIZE], int size){
-    for (int k=0; k<SIZE; ++k) {
-        for (int l=k+1; l<SIZE; ++l) {
+void sort(int array[], int size){
+    for (int k=0; k<size; ++k) {
+        for (int l=k+1; l<size; ++l) {
             if (array[k] < array[l]) {
                 int tmp =  array[k];
                 array[k] = array[l];
