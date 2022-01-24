@@ -1,7 +1,5 @@
 #include<stdio.h>
 
-const int SIZE = 6;
-
 void sort(int array[SIZE], int size){
     for (int k=0; k<SIZE; ++k) {
         for (int l=k+1; l<SIZE; ++l) {
